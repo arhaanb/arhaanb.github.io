@@ -15,6 +15,10 @@ li li {
     color: #7A7A7A;
 }
 
+li span {
+    font-family: 'product sans black';
+}
+
 h1 {
     font-family: 'product sans black';
     color: #4E4E4E;
