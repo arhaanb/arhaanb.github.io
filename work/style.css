@@ -7,6 +7,14 @@ html {
     background-color: #F6F6F6;
 }
 
+body {
+    color: #4E4E4E;
+}
+
+li li {
+    color: #7A7A7A;
+}
+
 h1 {
     font-family: 'product sans black';
     color: #4E4E4E;
