@@ -91,7 +91,6 @@ a:hover {
 
 .navlogo {
     padding: 0.3em 0.5em 0.3em 0.5em;
-
     border-style: solid;
     font-family: bebas neue;
     border-color: #CD754F;
@@ -376,16 +375,17 @@ input, textarea {
     }
 }
 
-@media (max-height: 550px) {
+@media (max-height: 705px) {
     header {
         height: auto;
+    }
+    .custom {
+        display: none;
     }
 }
 
 @media (max-height: 474px) {
-    .custom {
-        display: none;
-    }
+    
     .projects {
         margin-top: 5em;
     }
