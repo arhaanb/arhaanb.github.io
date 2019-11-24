@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Apply now</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="register.css">
+  <link rel="stylesheet" type="text/css" href="normalize.css" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/pls.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <nav class="navbar">
+    <a href="../index.html" id="main-51"><img src="../img/logo.png" id="logo"></a>
+    <a href="../index.html" id="right-side">Cosmo</a>
+  </nav>
+
+
+  <script type="text/javascript">var submitted = false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+    onload="if(submitted)  {window.location='thanks.html';}"></iframe>
+
+
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSfjpbbG6mPg75UybWzlAgu2T41tf6Fp5oMXWuq73oIHmhmsrw/formResponse"
+    method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+
+    <section id="reg">
+      <h1 id="title">job application</h1>
+      <form>
+
+        <div class="row">
+
+          <div class="flexy">
+            <span class="input">
+              <input class="field" type="text" name="entry.1195876958" autocomplete="off" required />
+              <label class="minet" for="input-4">
+                <span class="minet-content">Name <span class="required">*</span></span>
+              </label>
+            </span><br>
+
+            <span class="input">
+              <input class="field" type="email" name="entry.664395101" required autocomplete="off" />
+              <label class="minet" for="input-5">
+                <span class="minet-content">Email <span class="required">*</span></span>
+              </label>
+            </span><br>
+
+            <span class="input">
+              <input class="field" type="text" name="entry.1860685599" autocomplete="off" required />
+              <label class="minet" for="input-6">
+                <span class="minet-content">Phone Number <span class="required">*</span></span>
+              </label>
+            </span><br>
+          </div>
+
+        </div>
+        <div class="potty">
+          <label for="exampleMessage" name="entry.1457680886">Why would you like to work for us?</label><br>
+          <textarea class="potty" id="exampleMessage"></textarea><br><br>
+
+          <label for="exampleMessage" name="entry.1886906581">Any accomplishments that you would like us to know
+            about?</label><br>
+          <textarea class="potty" id="exampleMessage"></textarea><br><br>
+
+          <label for="exampleMessage" name="entry.69620431">Attach any useful material (resume/previous projects) a
+            Google Drive link</label><br>
+          <textarea class="potty" id="exampleMessage"></textarea>
+        </div>
+        <br><br>
+        <div class="sec1">
+          <input class="button-primary" type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+
+
+
+    <footer>
+      <h2>Cosmo Inc.</h2>
+      <h2>Made with <span style="color: #e25555;">&hearts;</span> by MINET</h2>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <script src="js/classie.js"></script>
+    <script>
+      (function () {
+        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+        if (!String.prototype.trim) {
+          (function () {
+            // Make sure we trim BOM and NBSP
+            var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+            String.prototype.trim = function () {
+              return this.replace(rtrim, '');
+            };
+          })();
+        }
+
+        [].slice.call(document.querySelectorAll('input.field')).forEach(function (inputEl) {
+          // in case the input is already filled..
+          if (inputEl.value.trim() !== '') {
+            classie.add(inputEl.parentNode, 'input--filled');
+          }
+
+          // events:
+          inputEl.addEventListener('focus', onInputFocus);
+          inputEl.addEventListener('blur', onInputBlur);
+        });
+
+        function onInputFocus(ev) {
+          classie.add(ev.target.parentNode, 'input--filled');
+        }
+
+        function onInputBlur(ev) {
+          if (ev.target.value.trim() === '') {
+            classie.remove(ev.target.parentNode, 'input--filled');
+          }
+        }
+      })();
+    </script>
+
+    <script type="text/javascript">
+
+      window.onscroll = () => {
+        const nav = document.querySelector('#navbar');
+        if (this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+      };
+
+    </script>
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23581568-13');
+    </script>
+
+
+
+</body>
+
+</html>
