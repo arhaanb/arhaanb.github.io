@@ -19,6 +19,16 @@ li span {
     font-family: 'product sans black';
 }
 
+h5 li a {
+    color: #4E4E4E;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
 h1 {
     font-family: 'product sans black';
     color: #4E4E4E;

@@ -1,0 +1,546 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: montserrat;
+}
+
+header {
+	height: 100vh;
+	background-color: #9effa1;
+	background-image: url(space.jpg);
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center;
+}
+
+#logo {
+	width: 0.8em;
+	transition: 0.5s;
+}
+
+#logo:hover {
+	filter: invert(100%);
+}
+
+header {
+	font-family: montserrat;
+	text-transform: uppercase;
+}
+
+#header-51 {
+	font-size: 1.35em;
+}
+
+.center-head {
+	height: 80vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-size: 1em;
+	letter-spacing: .4em;
+}
+
+#headtext {
+	height: 20vh;
+	font-size: 1em;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: montserrat;
+	letter-spacing: .2em;
+	margin-top: 5em;
+}
+
+.left {
+	margin-left: 5em;
+}
+
+.button-head {
+	float: right;
+}
+
+nav {
+	display: inline-flex;
+	color: white;
+	background-color: transparent;
+	align-items: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-family: montserrat;
+	margin: 0;
+	padding: 1em;
+	position: fixed;
+}
+
+nav a {
+	text-decoration: none;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	color: white;
+	transition: 0.5s;
+}
+
+nav a:hover {
+	color: #2c3531;
+}
+
+nav.scroll {
+	background-color: rgba(17, 100, 102, 0.9);
+	color: #eef;
+	width: 100%;
+	margin: 0;
+	transition: 0.5s;
+}
+
+#main51 {
+	font-size: 2.5em;
+}
+
+nav .icon {
+	display: none;
+}
+
+section {
+	width: 100%;
+	color: white;
+	font-family: montserrat;
+}
+
+#sec1 h2 {
+	text-align: center;
+	font-family: montserrat;
+	font-size: 2.2em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+#map {
+	width: 80%;
+}
+
+#sec1 {
+	background-color: #121212;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.sec1 {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#sec2 {
+	background-color: #054354;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	height: auto;
+}
+
+.bottompad {
+	padding-bottom: 4em;
+	padding-top: 2.5em;
+}
+
+.cont {
+	align-self: right;
+}
+
+body::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #121212;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #32ab7c;
+	outline: 1px solid slategrey;
+	border-radius: 25px;
+}
+
+::selection {
+	background: #e35d5d;
+	color: white;
+	padding: .5em;
+}
+
+footer {
+	font-size: .8em;
+	padding: 0.8rem 0;
+	line-height: 1.5em;
+	background: #116466;
+	color: #f7f7f7;
+	text-align: center;
+	font-family: montserrat;
+	text-transform: uppercase;
+}
+
+#locat {
+	text-align: center;
+	font-family: montserrat;
+	font-size: .7em;
+	text-transform: uppercase;
+	margin-bottom: .5em;
+}
+
+.price-card {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card {
+	margin-left: 2em;
+	margin-right: 2em;
+	background-color: #2b2b2b;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	border-radius: 3%;
+	color: white;
+	transition: 1s;
+	padding-left: .8em;
+	padding-right: .8em;
+}
+
+.card:hover {
+	-webkit-box-shadow: 19px 18px 45px -20px rgba(0, 0, 0, 0.61);
+	-moz-box-shadow: 19px 18px 45px -20px rgba(0, 0, 0, 0.61);
+	box-shadow: 19px 18px 45px -20px rgba(0, 0, 0, 0.61);
+}
+
+.card h4 {
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.card h1, h3 {
+	text-align: center;
+}
+
+.card li {
+	list-style-type: none;
+}
+
+.card h3 {
+	text-transform: uppercase;
+	font-family: montserrat;
+	font-size: 1.3em;
+	letter-spacing: .2em;
+	margin-bottom: 1.2em;
+	background-color: rgba(34, 71, 102, 0.5);
+	padding-top: .8em;
+	padding-bottom: .8em;
+	padding-right: .5em;
+	padding-left: .5em;
+	border-radius: .6em;
+}
+
+.card h4 {
+	margin-bottom: 1em;
+}
+
+.button {
+	border-style: solid;
+	border-color: #6699ee;
+	text-transform: uppercase;
+	text-align: center;
+	width: 10em;
+	padding: 1em;
+	transition: 0.5s;
+}
+
+.button:hover {
+	background-color: #6699ee;
+}
+
+.button a {
+	color: white;
+	text-decoration: none;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+#sec2 h2 {
+	text-align: center;
+	font-family: montserrat;
+	font-size: 2.2em;
+	margin-top: .8em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+/* SECTION 3 - ACCOMMODATION */
+
+#sec3 {
+	background-color: #121212;
+	height: 32em;
+}
+
+#acc {
+	height: 32em;
+}
+
+.sexy {
+	display: grid;
+	grid-gap: 5.5em;
+	grid-template-columns: repeat(3, 1fr);
+	margin-right: 3em;
+	font-family: montserrat;
+}
+
+.text-acc {
+	width: 35em;
+	margin-top: 1.5em;
+	font-size: .9em;
+	margin-bottom: .4em;
+}
+
+.acc {
+	font-size: 2.2em;
+	margin-bottom: .4em;
+}
+
+.acchead {
+	text-align: center;
+	font-family: montserrat;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	margin-bottom: 1.2em;
+}
+
+.acchead h3 {
+	font-size: .9em;
+	margin-bottom: .5em
+}
+
+@media screen and (max-width:700px) {
+	header {
+		height: auto;
+	}
+	nav {
+		display: block;
+		width: 100%;
+		letter-spacing: 0.1em;
+		padding: 0.3em;
+	}
+	nav a:nth-child(4) {
+		display: none;
+	}
+	nav a {
+		font-size: 11px;
+		text-align: center;
+		padding-top: 0em;
+		margin-top: 1px;
+	}
+	#logo {
+		font-size: 0.8em;
+	}
+	#sec3 {
+		display: none;
+	}
+	.left {
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	.sexy {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	#sec3 {
+		height: auto;
+	}
+	.potty {
+		text-align: center;
+	}
+	#sec2 {
+		height: auto;
+	}
+	.price-card {
+		flex-direction: column;
+	}
+	.card {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	#acc {
+		width: 75%;
+		height: auto;
+		margin-top: 1em;
+	}
+	.text-acc {
+		margin-top: 0em;
+		padding-bottom: 1.5em;
+	}
+	.arhaan {
+		flex-direction: column;
+	}
+	.sec7 {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		margin-bottom: 1em;
+	}
+}
+
+@media screen and (max-width:756px) {
+	.sketchfab-embed-wrapper {
+		display: none;
+	}
+}
+
+.navbar .menu-icon {
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	padding: 28px 20px;
+	position: relative;
+	user-select: none;
+}
+
+.navbar .menu-icon .navicon {
+	background: #333;
+	display: block;
+	height: 2px;
+	position: relative;
+	transition: background .2s ease-out;
+	width: 18px;
+}
+
+.navbar .menu-icon .navicon:before, .navbar .menu-icon .navicon:after {
+	background: #333;
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	transition: all .2s ease-out;
+	width: 100%;
+}
+
+.navbar .menu-icon .navicon:before {
+	top: 5px;
+}
+
+.navbar .menu-icon .navicon:after {
+	top: -5px;
+}
+
+.navbar .menu-btn {
+	display: none;
+}
+
+.navbar .menu-btn:checked~.menu {
+	max-height: 240px;
+}
+
+.navbar .menu-btn:checked~.menu-icon .navicon {
+	background: transparent;
+}
+
+.navbar .menu-btn:checked~.menu-icon .navicon:before {
+	transform: rotate(-45deg);
+}
+
+.navbar .menu-btn:checked~.menu-icon .navicon:after {
+	transform: rotate(45deg);
+}
+
+.navbar .menu-btn:checked~.menu-icon:not(.steps) .navicon:before, .navbar .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+	top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+	.navbar li {
+		float: left;
+	}
+	.navbar li a {
+		padding: 20px 30px;
+	}
+	.navbar .menu {
+		clear: none;
+		float: right;
+		max-height: none;
+	}
+	.navbar .menu-icon {
+		display: none;
+	}
+}
+
+#imgbro {
+	width: 90%;
+}
+
+#sec5 {
+	background-color: #121212;
+}
+
+.arhaan {
+	display: flex;
+	justify-content: space-around;
+}
+
+.fullsec5 {
+	padding-top: 1.5em;
+	padding-bottom: 3em;
+}
+
+#sec5 h1 {
+	font-size: 2.2em;
+	font-family: montserrat;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.navbar {
+	z-index: 2;
+}
+
+.flexingtime {
+	margin-bottom: 2em;
+}
+
+#imgbro {
+	transition: 1s;
+}
+
+#imgbro:hover {
+	width: 93%;
+	height: auto;
+	cursor: pointer;
+}
+
+#registerbro {
+	margin-top: 2em;
+	padding: 1em;
+	background-color: #0b6341;
+	border-style: none;
+	color: white;
+	font-family: montserrat;
+	letter-spacing: .2em;
+	transition: 0.5s;
+	font-size: 1.5em;
+}
+
+#registerbro:hover {
+	background-color: #09945e;
+	cursor: pointer;
+}
+
+#card-img {
+	width: 18vw;
+}

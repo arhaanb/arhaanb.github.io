@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Comfortaa;
+	height: 100vh;
+}
+
+.height-100 {
+	height: 100vh;
+}
+
+body {
+	background-color: #121212;
+	color: white;
+	height: 100vh;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin-top: 2em;
+	font-family: montserrat;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+h2 {
+	font-family: montserrat;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin: .5em;
+}
+
+h1 {
+	font-family: montserrat;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin: .5em;
+}
+
+h4 {
+	margin: .5em;
+}
+
+.cool-link::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #e1dede;
+      transition: width .3s;
+}
+
+.cool-link:hover::after {
+      width: 100%;
+      transition: width .7s;
+}
