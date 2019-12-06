@@ -23,9 +23,9 @@ header {
 
 .custom {
     width: 30em;
-    position: absolute;
+    margin-top: -80%;
     top: 70vh;
-    margin-bottom: 0;
+    margin-bottom: -15em;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
@@ -52,7 +52,7 @@ nav {
 }
 
 .aboutme {
-    margin-top: 18em;
+    margin-top: 35vh;
     left: 6em;
     z-index: 5;
     padding-left: 1em;
@@ -264,7 +264,6 @@ button:hover {
         left: 0;
     }
     .projects h1 {
-        margin-top: -1em;
         text-align: center;
     }
     .bruhred, .babyred {
@@ -287,7 +286,6 @@ button:hover {
 
 @media (max-width: 1097px) {
     .projects h1 {
-        margin-top: 1em;
     }
 }
 
@@ -376,18 +374,12 @@ input, textarea {
 }
 
 @media (max-height: 705px) {
-    header {
-        height: auto;
-    }
-    .custom {
-        display: none;
-    }
+
 }
 
 @media (max-height: 474px) {
     
     .projects {
-        margin-top: 5em;
     }
     .aboutme {
         margin-top: 7em;
