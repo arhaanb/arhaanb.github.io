@@ -315,6 +315,9 @@ button:hover {
     .bruhred {
         margin-bottom: -2em;
     }
+    header {
+        margin-bottom: -5em;
+    }
 }
 
 @media (min-width: 550px) {
