@@ -322,7 +322,7 @@ button:hover {
         margin-bottom: -2em;
     }
     header {
-        margin-bottom: -5.5em;
+        margin-bottom: -6.5em;
     }
 }
 
@@ -388,13 +388,12 @@ input, textarea {
     }
 }
 
-@media (max-height: 705px) {
-
-}
-
 @media (max-height: 474px) {
-    
-    .projects {
+    header {
+        height: auto;
+    }
+    .custom {
+        margin-top: -2em;
     }
     .aboutme {
         margin-top: 7em;
