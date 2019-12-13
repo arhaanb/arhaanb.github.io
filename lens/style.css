@@ -1,0 +1,180 @@
+.required {
+  color: red;
+}
+
+body header {
+  text-align: right;
+  overflow: hidden;
+  height: 80px;
+  left: 0;
+  right: 0;
+  top: 0px;
+  z-index: 3;
+}
+
+body header {
+  border-bottom: thin solid #eff0f0;
+}
+
+body header h3 {
+  font-family: "virgo 01";
+  color: #6699ee;
+  margin-top: 0;
+  line-height: 80px;
+  text-align: left;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+body header .right.columns {
+  font-family: Europa;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  top: 1px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+header {
+  margin-bottom: 3em;
+}
+
+.lens {
+  font-family: 'montserrat';
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.spacing {
+  padding-bottom: 2em;
+}
+
+/* Checkbox */
+
+.checkbox-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-left: 1.7em;
+  margin-bottom: .7em;
+  cursor: pointer;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkbox-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1em;
+  width: 1em;
+  background-color: #eee;
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a grey background color */
+
+.checkbox-label:hover input~.checkbox-custom {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+.checkbox-label input:checked~.checkbox-custom {
+  background-color: #6699ee;
+}
+
+/* Create the checkbox-custom/indicator (hidden when not checked) */
+
+.checkbox-custom:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkbox-custom when checked */
+
+.checkbox-label input:checked~.checkbox-custom:after {
+  display: block;
+}
+
+/* Style the checkbox-custom/indicator */
+
+.checkbox-label .checkbox-custom:after {
+  left: .26em;
+  top: .08em;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ques textarea {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+input, textarea {
+  font-family: 'Europa';
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5883cc;
+  outline: 1px solid slategrey;
+  border-radius: 25px;
+}
+
+::selection {
+  background: #1c1c1c;
+  color: white;
+  padding: .5em;
+}
+
+button {
+  border-color: #6699ee;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #6699ee;
+  border-color: #6699ee;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .infotype {
+    display: none;
+  }
+}
