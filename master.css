@@ -16,6 +16,7 @@
 
 html {
     background-color: #222;
+    font-family: 'ubuntu';
 }
 
 .center {
@@ -40,7 +41,11 @@ body {
 
 .soon {
     font-family: 'ubuntu';
+    margin-bottom: 0;
 }
+
+.mmm {margin-bottom: 0;}
+.grey{color: rgb(104, 104, 104);}
 
 .viw {
     height: 90vh;
