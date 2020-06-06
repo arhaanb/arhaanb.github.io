@@ -22,8 +22,12 @@ html {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
-    margin-top: 12em;
+    margin-top: 5em;
 }
 
 .logo img {
@@ -43,4 +47,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
